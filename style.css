@@ -1,0 +1,32 @@
+body{
+
+    margin: 0;
+}
+
+header{ 
+    width: 100%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    height: 9px;
+ }
+
+header div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: flex-end;
+
+}
+
+header div:nth-child(2){
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    height: 512px;
+}
